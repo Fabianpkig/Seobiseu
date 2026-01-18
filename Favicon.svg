@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0A0F1F"/>
+  
+  <!-- Forma principal inspirada en "S" + estética coreana -->
+  <path
+    d="M160 140
+       H320
+       C360 140 360 200 320 200
+       H220
+       C180 200 180 260 220 260
+       H320
+       C380 260 380 360 320 360
+       H160"
+    fill="none"
+    stroke="#5EEAD4"
+    stroke-width="40"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Punto de identidad (servicio / precisión) -->
+  <circle cx="360" cy="140" r="16" fill="#38BDF8"/>
+</svg>

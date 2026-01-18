@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SEOBISEU</title>
+</head>
+<body>
+
+    <div class="grid" id="marketplace">
+  <!-- Aquí se insertan productos y servicios -->
+</div>
+
+
+<!-- FORMULARIO SUBIR -->
+<section class="upload">
+  <h2>Publicar producto o servicio</h2>
+
+  <form id="uploadForm">
+    <select id="type" required>
+      <option value="">Selecciona tipo</option>
+      <option value="Servicio">Servicio</option>
+      <option value="Producto">Producto</option>
+    </select>
+
+    <input type="text" id="title" placeholder="Título" required>
+    <input type="number" id="price" placeholder="Precio (COP)" required>
+    <input type="text" id="image" placeholder="URL de imagen" required>
+
+    <button type="submit">Publicar</button>
+  </form>
+</section>
+
+
+      <!-- HEADER -->
+  <header class="header">
+    <div class="logo">Seobiseu</div>
+    <nav>
+      <a href="#">Explorar</a>
+      <a href="#" id="btnPublicar">Publicar servicio</a>
+      <a href="#" id="btnLogin">Ingresar</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+  <h1>Encuentra el servicio o producto perfecto</h1>
+
+  <div class="search-box">
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Buscar servicios, productos o proveedores..."
+    >
+    <button id="searchBtn">Buscar</button>
+  </div>
+</section>
+
+
+  <!-- SERVICIOS -->
+  <section class="services">
+    <h2>Servicios destacados</h2>
+
+    <div class="grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x180" alt="">
+        <h3>Edición de video profesional</h3>
+        <p>Desde $20.000 COP</p>
+        <button>Ver servicio</button>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/300x180" alt="">
+        <h3>Diseño de logos modernos</h3>
+        <p>Desde $15.000 COP</p>
+        <button>Ver servicio</button>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/300x180" alt="">
+        <h3>Desarrollo web HTML & CSS</h3>
+        <p>Desde $30.000 COP</p>
+        <button>Ver servicio</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    © 2026 Seobiseu · Marketplace de servicios
+  </footer>
+
+  <!-- LOGIN MODAL -->
+<div class="modal" id="loginModal">
+  <div class="modal-content">
+    <span class="close" id="closeLogin">&times;</span>
+
+    <h2>Ingresar</h2>
+
+    <form>
+      <input type="email" placeholder="Correo electrónico" required>
+      <input type="password" placeholder="Contraseña" required>
+
+      <button type="submit">Ingresar</button>
+    </form>
+
+    <p class="register-text">
+      ¿No tienes cuenta?
+      <a href="#">Registrarme</a>
+    </p>
+  </div>
+</div>
+
+
+  <script src="main.js"></script>
+
+<footer class="footer">
+  <a href="privacidad.html" class="footer-link">Política de Privacidad</a>
+  <a href="#" class="footer-link" id="btnContacto">Contáctanos</a>
+</footer>
+
+
+<div class="modal" id="contactModal">
+  <div class="modal-content">
+    <span class="close" id="closeContact">&times;</span>
+
+    <h2>Contáctanos</h2>
+
+    <div class="contact-links">
+      <a href="mailto:seobiseuserver@gmail.com">📧 seobiseuserver@gmail.com</a>
+      <a href="https://wa.me/573218910103" target="_blank">📱 WPP</a>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
